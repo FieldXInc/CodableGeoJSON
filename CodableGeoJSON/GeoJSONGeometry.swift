@@ -92,7 +92,7 @@ public struct GeometryCollection: GeoJSONGeometry {
 
     public let geometries: Geometries
 
-    public init(coordinates: Coordinates) {
-        self.coordinates = coordinates
+    public init(geometries: Geometries) {
+        self.geometries = geometries
     }
 }
